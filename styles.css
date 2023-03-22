@@ -1,0 +1,104 @@
+@font-face {
+  src: url(fonts/CreteRound-Regular.ttf);
+  font-family: 'Crete-Round';
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 42px;
+    background-color: #3c3a39;
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+  }
+
+  .nav-items {
+    width: 100%;
+
+    /* border: 1px solid red; */
+  }
+
+  .menuicon {
+    display: flex;
+    align-self: baseline;
+  }
+
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1c1a19;
+    padding: 120px 10px;
+    gap: 12px;
+    height: 590px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url(./images/Illustration.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+  }
+
+  .hello-me {
+    color: #ff6b00;
+    font-size: 56px;
+    font-family: Crete-Round, Geneva, Tahoma, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    height: 124px;
+    letter-spacing: 0.37px;
+    margin: 10px;
+    order: 0;
+  }
+
+  .SD {
+    color: #fff5e1;
+    font-size: 24px;
+    font-family: 'Roboto', 'Arial Narrow Bold', sans-serif;
+    order: 1;
+    height: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 10px;
+  }
+
+  .info {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Poppins', 'Arial Narrow Bold', sans-serif;
+    order: 2;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    height: 123px;
+    margin: 10px;
+  }
+}
