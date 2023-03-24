@@ -55,9 +55,6 @@ header {
   padding: 120px 10px;
   gap: 12px;
   height: 590px;
-  position: absolute;
-  left: 0;
-  right: 0;
   background-image: url(./images/Illustration.png);
   background-repeat: no-repeat;
   background-position-x: 100%;
@@ -112,4 +109,238 @@ header {
 
 .contact-icon {
   height: 20px;
+}
+
+.Recent-works {
+  background-color: #fff;
+  height: 900px;
+  border: 3px solid salmon;
+  padding: 1rem;
+}
+
+.recent-works-title {
+  height: 83px;
+  font-family: 'Crete-Round', 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  border: 2px solid blue;
+  display: flex;
+  padding-left: 15px;
+  padding-top: 120px;
+}
+
+.featured {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 24px;
+  row-gap: 0.5rem;
+}
+
+.gymfit {
+  grid-column: span 4;
+  padding-top: 104px;
+  border: 1px solid green;
+  width: 100%;
+}
+
+.post-stories {
+  grid-column: span 4;
+  font-family: 'Crete-Round', 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* display: flex;
+    align-items: center; */
+  color: #091e42;
+  height: 36px;
+}
+
+.feat-text {
+  grid-column: span 4;
+  color: #091e42;
+  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  height: 147px;
+}
+
+.lang-list-4 {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 12px;
+  margin-left: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.css {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  width: fit-content;
+  height: 40px;
+  background: #fff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  order: 0;
+  box-sizing: border-box;
+}
+
+.html {
+  box-sizing: border-box;
+  padding: 10px 12px;
+  height: 40px;
+  width: fit-content;
+  background: #fff;
+  border: 1px solid #8993a4;
+  order: 1;
+  font-size: 1rem;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.bootstrap {
+  width: fit-content;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  background: #fff;
+  font-size: 1rem;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: 1px solid #8993a4;
+  order: 2;
+}
+
+.Ruby {
+  width: fit-content;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background: #fff;
+  border: 1px solid #8993a4;
+  order: 3;
+}
+
+.see-project {
+  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 128px;
+  height: 48px;
+  font-size: 17px;
+  background-color: #ff6b00;
+  border: 0;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  color: #fff;
+}
+
+.see-project:hover {
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+.see-project:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+.projects {
+  display: grid;
+  grid-row-gap: 2px;
+  width: 100%;
+  border: 2px solid blue;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 24px;
+  background-image: url(./images/Project-BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 386px;
+  color: white;
+}
+
+.professional {
+  height: 81px;
+  font-size: 32px;
+  font-family: 'Crete-Round', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 16px;
+  margin-right: 16px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 84px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 12px;
+}
+
+.proj-desc {
+  font-family: 'Inter', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0.5rem 16px 0.5rem 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 16px;
+  gap: 1rem;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.buttons li {
+  padding: 0 12px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.buttons a {
+  display: block;
+  height: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 20px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button.project-link-btn {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 1px 165px 10px 165px;
+  background-color: #ff6b00;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  text-align: center;
+  border: 0;
+  margin-top: 1.4rem;
+  width: 100%;
 }
