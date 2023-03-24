@@ -326,7 +326,6 @@ button.project-link-btn {
   text-decoration: none;
   color: #fff;
   display: block;
-  padding: 1px 165px 10px 165px;
   background-color: #ff6b00;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -338,6 +337,7 @@ button.project-link-btn {
   border: 0;
   margin-top: 1.4rem;
   width: 100%;
+  padding: 1.1rem 0;
 }
 
 .about {

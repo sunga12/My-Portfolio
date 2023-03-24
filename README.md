@@ -120,7 +120,6 @@ Run "npx stylelint "**/*.{css,scss}" " to check linter errors
 
 Github Page
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
