@@ -1,4 +1,4 @@
-# Mobile-project
+# Mobile-First-Project
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -23,11 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 My Portfolio <a name="about-project"></a>
 
-> My project is a simple portfolio setup.
+> My Portfolio showcases my projects, and tells you a little about myself.
 
-**Mobile project setup** is a project 
+**Mobile-First-Project** is a project built for mobile devices upto 768px screen sizes. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,9 +37,8 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li>html</li>
-    <li>css</li>
-    <li>javascript</li>
+    <li>HTML</li>
+    <li>CSS</li>
   </ul>
 </details>
 
@@ -47,10 +46,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **impressive UI**
-- **user friendly**
-- **great UX**
-- **responsive mobile menu**
+- **Impressive UI**
+- **User friendly**
+- **Great UX**
 
 ### Live Demo <a name="live-demo"></a>
 
@@ -67,12 +65,10 @@ Click [Coming Soon]()
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need to:
 
 
-Example command:
-
- install vs code or any other text editor.
+ Install VS code or any other text editor.
 
  
 
@@ -84,7 +80,7 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  git clone git@github.com:sunga12/Portfolio.git
+  git clone git@github.com:sunga12/My-Portfolio.git
 ```
 
 
@@ -93,8 +89,6 @@ Example commands:
 Install this project with:
 
 
-Example command:
-
 ```sh
   node.js V16 and above
 ```
@@ -102,10 +96,8 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project::
 
-
-Example command:
 
 ```sh
   use git bash to open in Vs code
@@ -120,14 +112,13 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters 
+Run "npx stylelint "**/*.{css,scss}" " to check linter errors
 ```
 
 
 ### Deployment
 
 Github Page
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,9 +142,9 @@ Github Page
 
 - [ ] **add linters for different languages**
 - [ ] **create more flexible CSS**
-
 - [ ] **create more grid**
 - [ ] **add mobile menu**
+- [ ] **refactor for a desktop version**
 
 
 <!-- CONTRIBUTING -->
@@ -178,11 +169,10 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse as well as my code partner (Adams)
+I would like to thank Microverse for the opportunity to become a software developer.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
