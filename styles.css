@@ -294,9 +294,9 @@ header {
 }
 
 .buttons {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-start; */
   margin-left: 16px;
   gap: 1rem;
   padding-left: 0;
@@ -304,6 +304,7 @@ header {
 }
 
 .buttons li {
+  float: left;
   padding: 0 12px;
   background: rgba(255, 255, 255, 0.24);
 }
