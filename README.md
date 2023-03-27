@@ -1,4 +1,4 @@
-# Mobile-project
+# Mobile-First-Project
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
