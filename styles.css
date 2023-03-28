@@ -559,6 +559,9 @@ button.project-link-btn {
   font-weight: 700;
   line-height: 44px;
   text-align: center;
+  width: 20rem;
+  height: 14rem;
+  border: 1px solid red;
 }
 
 form {
