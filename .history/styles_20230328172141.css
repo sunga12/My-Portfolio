@@ -604,5 +604,6 @@ footer .icons img {
 }
 
 footer > img {
-  padding-bottom: 11px;  
+  padding-bottom: 15px;
+  background-color: red;
 }
