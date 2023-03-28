@@ -506,3 +506,53 @@ button.project-link-btn {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   line-height: 54px;
 }
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5%;
+}
+
+
+.contact-comment {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  padding-bottom: 3rem;
+  color: #172B4D;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+}
+.form-list {
+  border: 1px solid red;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  padding: 1rem;
+  border: 0;
+  border-bottom: 1px solid #DBD8D7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form li + li {
+  margin-top: 1.5rem;
+}
