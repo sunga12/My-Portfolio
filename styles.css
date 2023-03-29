@@ -18,6 +18,14 @@
   padding: 0;
 }
 
+ul a {
+  text-decoration: none;
+}
+
+.desktop {
+  display: none;
+}
+
 header {
   height: 42px;
   background-color: #3c3a39;
@@ -76,7 +84,7 @@ header {
 
 .SD {
   color: #fff5e1;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: 'Roboto', 'Arial Narrow Bold', sans-serif;
   order: 1;
   height: 27px;
@@ -87,7 +95,7 @@ header {
 }
 
 .info {
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
   font-family: 'Poppins', 'Arial Narrow Bold', sans-serif;
   order: 2;
@@ -655,4 +663,79 @@ footer > img {
 
 footer .icons img {
   filter: invert(90%) sepia(90%) hue-rotate(190deg) brightness(1.5);
+}
+
+@media (min-width: 769px) {
+  .desktop {
+    display: unset;
+  }
+
+  header {
+    padding: 0 9rem;
+  }
+
+  .desk-nav-list {
+    display: flex;
+    gap: 2rem;
+    font-style: normal;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .desk-nav-list a {
+    color: #fff;
+  }
+
+  .hamburger,
+  .menuicon {
+    display: none;
+  }
+
+  .desk-email-box {
+    margin-left: 2rem;
+  }
+
+  .intro {
+    flex-direction: row;
+    background-image: url(./images/Illustration-header.png);
+    align-items: center;
+  }
+
+  .headline {
+    order: 1;
+    width: 35rem;
+  }
+
+  .hello-me {
+    line-height: 113%;
+    color: #f55800;
+    font-size: 72px;
+    height: 160px;
+  }
+
+  .SD {
+    color: #fff;
+    font-size: 2rem;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 44px;
+    height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .info {
+    font-family: Inter, 'Poppins', Arial, Helvetica, sans-serif;
+    color: #f4f5f7;
+    font-size: 20px;
+    line-height: 160%;
+  }
+
+  .icons {
+    order: 0;
+    flex-direction: column;
+    margin: 0 3.5rem 0 2rem;
+    height: fit-content;
+  }
 }
