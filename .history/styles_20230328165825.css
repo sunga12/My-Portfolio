@@ -227,10 +227,6 @@ header {
   order: 3;
 }
 
-button:hover {
-  background-color: #fff5e1;
-}
-
 .see-project {
   font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 128px;
@@ -254,11 +250,6 @@ button:hover {
 .see-project:disabled {
   background: #f4f1f0;
   color: #5b5957;
-}
-
-.see-project:active {
-  color: #f4f1f0;
-  background: #e05304;
 }
 
 .projects {
@@ -300,10 +291,6 @@ button:hover {
   font-size: 16px;
   line-height: 24px;
   margin: 0.5rem 16px 0.5rem 16px;
-}
-
-form li + li {
-  margin-top: 1.5rem;
 }
 
 .buttons {
@@ -350,22 +337,6 @@ button.project-link-btn {
   margin-top: 1.4rem;
   width: 100%;
   padding: 1.1rem 0;
-}
-
-.project-link-btn:hover {
-  color: #f55800;
-  background: #fff5e1;
-  border: 1px solid #f55800;
-}
-
-.project-link-btn:disabled {
-  background: #f4f1f0;
-  color: #5b5957;
-}
-
-.project-link-btn:active {
-  color: #f4f1f0;
-  background: #e05304;
 }
 
 .about {
@@ -441,11 +412,6 @@ button.project-link-btn {
   color: #5b5957;
 }
 
-.resume-link:active {
-  color: #f4f1f0;
-  background: #e05304;
-}
-
 .ab-info {
   border-bottom: 1px solid #fff;
   padding-bottom: 18rem;
@@ -460,7 +426,6 @@ button.project-link-btn {
   justify-content: center;
   margin-top: 200px;
   order: 3;
-  padding-bottom: 2rem;
 }
 
 .ext-links {
@@ -549,24 +514,24 @@ button.project-link-btn {
   padding: 2rem 5%;
 }
 
+
 .contact-comment {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  padding-bottom: 6rem;
-  margin-top: 3rem;
-  color: #172b4d;
+  padding-bottom: 3rem;
+  color: #172B4D;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
   text-align: center;
-  width: 20.5rem;
-  height: 14rem;
-
-  /* border: 1px solid red; */
 }
 
 form {
   width: 100%;
+}
+.form-list {
+  border: 1px solid red;
+
 }
 
 ul {
@@ -578,8 +543,8 @@ ul {
 input {
   padding: 1rem;
   border: 0;
-  border-bottom: 1px solid #dbd8d7;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #DBD8D7;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -588,71 +553,6 @@ input {
   box-sizing: border-box;
 }
 
-textarea {
-  min-height: 7rem;
-  padding: 1rem;
-  font-family: 'Inter', sans-serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 24px;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #fbf8f7;
-  border: 0;
-}
-
-textarea::placeholder {
-  color: #3c3a39;
-}
-
-.contact-button {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-button button {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1rem;
-  letter-spacing: 0.03em;
-  line-height: 24px;
-  color: #fff;
-  background-color: #ff6b00;
-  padding: 0.9rem;
-  border: 0;
-}
-
-.form-submit:hover {
-  color: #f55800;
-  background: #fff5e1;
-  border: 1px solid #f55800;
-}
-
-.form-submit:disabled {
-  background: #f4f1f0;
-  color: #5b5957;
-}
-
-.form-submit:active {
-  color: #f4f1f0;
-  background: #e05304;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-top: 1px solid #dfe1e6;
-  padding-top: 1rem;
-  margin-top: 4rem;
-}
-
-footer > img {
-  padding-bottom: 11px;
-}
-
-footer .icons img {
-  filter: invert(90%) sepia(90%) hue-rotate(190deg) brightness(1.5);
+form li + li {
+  margin-top: 1.5rem;
 }

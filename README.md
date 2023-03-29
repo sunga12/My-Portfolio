@@ -1,4 +1,7 @@
-# Mobile-First-Project
+<a name="readme-top"></a>
+  <h3><b>My Portfolio</b></h3>
+</div>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -12,7 +15,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -21,73 +24,83 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 My Portfolio <a name="about-project"></a>
 
-> My Portfolio showcases my projects, and tells you a little about myself.
-
-**Mobile-First-Project** is a project built for mobile devices upto 768px screen sizes. 
+> My Portfolio showcases my projects, and tells you a little about myself. It is a portfolio built first for view on mobile devices upto 768px screen sizes. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### HTML-Used for Text & CSS-Used for styling <a name="tech-stack"></a>
+
 
 
 <details>
-  <summary>Client</summary>
+  <summary>Markup Language</summary>
   <ul>
-    <li>HTML</li>
-    <li>CSS</li>
+    <li><a href="https://html.com/">HTML</a></li>
   </ul>
 </details>
 
-<!-- Features -->
+<details>
+  <summary>Styling Language</summary>
+  <ul>
+    <li><a href="https://web.dev/learn/css/">CSS</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Impressive UI**
-- **User friendly**
 - **Great UX**
-
-### Live Demo <a name="live-demo"></a>
-
-Click [Coming Soon]() 
-
+- **Tells you a bit about myself**
+- **User Friendly**
+- **Impressive UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Click [Coming Soon]() 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Developers can use linters to check for errors and bugs. 
+To get a local copy up and running, follow these steps: Clone Github Repo using SSH, HTTP, or via Github Desktop.
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
-In order to run this project you need to:
+In order to run this project you need: 
 
+- Microsoft Visual Studio Code or any other text Editor
+- A Github account
+- Internet Connection.
 
- Install VS code or any other text editor.
-
- 
+```sh
+  cd your-project
+  npm init -y  
+  npm install
+```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
-Example commands:
-
 ```sh
+  cd your-folder
   git clone git@github.com:sunga12/My-Portfolio.git
 ```
-
 
 ### Install
 
 Install this project with:
-
 
 ```sh
   node.js V16 and above
@@ -96,8 +109,7 @@ Install this project with:
 
 ### Usage
 
-To run the project::
-
+To run the project:
 
 ```sh
   use git bash to open in Vs code
@@ -108,26 +120,23 @@ To run the project::
 
 To run tests, run the following command:
 
-
-Example command:
-
 ```sh
-Run "npx stylelint "**/*.{css,scss}" " to check linter errors
+  npx hint .
+
+  npx stylelint "**/*.{css,scss}" ' 
 ```
+
+to check linter errors.
 
 
 ### Deployment
 
-Github Page
+Github Pages:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
-👤 **Author**
+## 👥 Author <a name="authors"></a>
 
 - GitHub: [@sunga12](https://github.com/sunga12)
 - Twitter: [@OfficialAseT](https://twitter.com/OfficialAseT)
@@ -135,49 +144,33 @@ Github Page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+> Describe 1 - 3 features you will add to the project.
 
-- [ ] **add linters for different languages**
-- [ ] **create more flexible CSS**
-- [ ] **create more grid**
-- [ ] **add mobile menu**
-- [ ] **refactor for a desktop version**
-
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- [ ] **Project Popup Windows**
+- [ ] **Animations and Transitions**
+- [ ] **Mobile Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Follow me on my github if you like this project...
+If you like this project follow me on GitHub!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the opportunity to become a software developer.
-
+I would like to thank Microverse for this opportunity to become a software developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENCE) licensed.
+This project is [MIT](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
