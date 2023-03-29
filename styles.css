@@ -171,8 +171,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  height: 147px;
-}
+=}
 
 .lang-list-4 {
   grid-column: span 4;
@@ -665,11 +664,12 @@ footer .icons img {
   filter: invert(90%) sepia(90%) hue-rotate(190deg) brightness(1.5);
 }
 
+
 @media (min-width: 769px) {
   .desktop {
     display: unset;
   }
-
+  
   header {
     padding: 0 9rem;
   }
@@ -738,4 +738,72 @@ footer .icons img {
     margin: 0 3.5rem 0 2rem;
     height: fit-content;
   }
+
+  .Recent-works {
+    padding: 8.5rem 9.5rem;
+  }
+
+  .recent-works-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.25rem;
+  }
+
+  .recent-works-title {
+    color: #091E42;
+    border: 0;
+    padding: 0;
+    height: inherit;
+  }
+
+  .line {
+    border: 1px solid #212121;
+    width: 41rem;
+    height: 0;
+  }
+
+  .featured {
+    grid-template-columns: 60% 40%;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    }
+
+  .gymfit {
+    grid-column: span 1;
+    grid-row: 1/6;
+    padding: 0;
+  }
+
+  .post-stories {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+  }
+
+  .feat-text {
+    grid-column: span 1;
+  }
+
+  .lang-list-4 {
+    grid-column: 2/3;
+  }
+
+
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 2.2rem;
+    grid-column-gap: 1.5rem;
+  }
+
+  .project {
+    width: 100%;
+    padding-bottom: 1rem;
+    
+  }
+
+  button.project-link-btn {
+    display: none;
+  }
 }
+
