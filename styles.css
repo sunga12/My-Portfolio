@@ -664,12 +664,11 @@ footer .icons img {
   filter: invert(90%) sepia(90%) hue-rotate(190deg) brightness(1.5);
 }
 
-
 @media (min-width: 769px) {
   .desktop {
     display: unset;
   }
-  
+
   header {
     padding: 0 9rem;
   }
@@ -751,7 +750,7 @@ footer .icons img {
   }
 
   .recent-works-title {
-    color: #091E42;
+    color: #091e42;
     border: 0;
     padding: 0;
     height: inherit;
@@ -767,7 +766,7 @@ footer .icons img {
     grid-template-columns: 60% 40%;
     column-gap: 1.5rem;
     row-gap: 1.5rem;
-    }
+  }
 
   .gymfit {
     grid-column: span 1;
@@ -778,7 +777,6 @@ footer .icons img {
   .post-stories {
     grid-column: 2/3;
     grid-row: 1/2;
-
   }
 
   .feat-text {
@@ -789,7 +787,6 @@ footer .icons img {
     grid-column: 2/3;
   }
 
-
   .projects {
     grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 2.2rem;
@@ -799,11 +796,9 @@ footer .icons img {
   .project {
     width: 100%;
     padding-bottom: 1rem;
-    
   }
 
   button.project-link-btn {
     display: none;
   }
 }
-
