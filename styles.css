@@ -551,7 +551,7 @@ button.project-link-btn {
 
 .contact-comment {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
   margin-top: 3rem;
   color: #172b4d;
   font-size: 2rem;
@@ -559,8 +559,10 @@ button.project-link-btn {
   font-weight: 700;
   line-height: 44px;
   text-align: center;
-  width: 20rem;
+  width: 20.5rem;
   height: 14rem;
+
+  /* border: 1px solid red; */
 }
 
 form {
