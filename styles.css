@@ -18,6 +18,14 @@
   padding: 0;
 }
 
+ul a {
+  text-decoration: none;
+}
+
+.desktop {
+  display: none;
+}
+
 header {
   height: 42px;
   background-color: #3c3a39;
@@ -28,8 +36,6 @@ header {
 
 .nav-items {
   width: 100%;
-
-  /* border: 1px solid red; */
 }
 
 .menuicon {
@@ -76,7 +82,7 @@ header {
 
 .SD {
   color: #fff5e1;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: 'Roboto', 'Arial Narrow Bold', sans-serif;
   order: 1;
   height: 27px;
@@ -87,7 +93,7 @@ header {
 }
 
 .info {
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
   font-family: 'Poppins', 'Arial Narrow Bold', sans-serif;
   order: 2;
@@ -122,8 +128,8 @@ header {
   font-family: 'Crete-Round', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
   border-bottom: 1px solid #212121;
   display: flex;
   padding-left: 15px;
@@ -149,10 +155,10 @@ header {
   font-family: 'Crete-Round', 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2rem;
+  line-height: 2.75rem;
   color: #091e42;
-  height: 36px;
+  height: 2.25rem;
 }
 
 .feat-text {
@@ -161,16 +167,15 @@ header {
   font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  height: 147px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .lang-list-4 {
   grid-column: span 4;
   display: flex;
   flex-direction: row;
-  grid-gap: 12px;
+  gap: 0.75rem;
   margin-left: 0;
   padding: 0;
   list-style-type: none;
@@ -178,23 +183,23 @@ header {
 
 .css {
   border: 1px solid #8993a4;
-  padding: 10px 12px;
+  padding: 0.625rem 0.75rem;
   width: fit-content;
-  height: 40px;
+  height: 2.5rem;
   background: #fff;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1rem;
-  line-height: 20px;
+  font-size: 100%;
+  line-height: 1.25rem;
   order: 0;
   box-sizing: border-box;
 }
 
 .html {
   box-sizing: border-box;
-  padding: 10px 12px;
-  height: 40px;
+  padding: 0.625rem 0.75rem;
+  height: 2.5rem;
   width: fit-content;
   background: #fff;
   border: 1px solid #8993a4;
@@ -205,9 +210,9 @@ header {
 
 .bootstrap {
   width: fit-content;
-  height: 40px;
+  height: 2.5rem;
   box-sizing: border-box;
-  padding: 10px 12px;
+  padding: 0.625rem 0.75rem;
   background: #fff;
   font-size: 1rem;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -217,9 +222,9 @@ header {
 
 .Ruby {
   width: fit-content;
-  height: 40px;
+  height: 2.5rem;
   box-sizing: border-box;
-  padding: 10px 12px;
+  padding: 0.625rem 0.75rem;
   font-size: 1rem;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   background: #fff;
@@ -275,31 +280,31 @@ button:hover {
   background-image: url(./images/Project-BG.png);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
+
+  /* overflow: hidden; */
   color: white;
 }
 
 .professional {
-  height: 81px;
-  font-size: 32px;
+  font-size: 2rem;
   font-family: 'Crete-Round', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 16px;
-  margin-right: 16px;
-  line-height: 44px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  line-height: 2.75rem;
   color: #fff;
-  margin-top: 84px;
+  margin-top: 5rem;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .proj-desc {
   font-family: 'Inter', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0.5rem 16px 0.5rem 16px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0.5rem 1rem;
 }
 
 form li + li {
@@ -310,24 +315,24 @@ form li + li {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-left: 16px;
+  margin-left: 1rem;
   gap: 1rem;
   padding-left: 0;
   list-style-type: none;
 }
 
 .buttons li {
-  padding: 0 12px;
+  padding: 0 0.75rem;
   background: rgba(255, 255, 255, 0.24);
 }
 
 .buttons a {
   display: block;
-  height: 20px;
-  font-size: 15px;
+  height: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
-  line-height: 20px;
-  padding: 10px 0 10px 0;
+  line-height: 1.25rem;
+  padding: 0.625rem 0;
   text-align: center;
   color: #fff;
   font-weight: 500;
@@ -342,9 +347,9 @@ button.project-link-btn {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 1rem;
   letter-spacing: 0.03em;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   border: 0;
   margin-top: 1.4rem;
@@ -561,8 +566,6 @@ button.project-link-btn {
   text-align: center;
   width: 20.5rem;
   height: 14rem;
-
-  /* border: 1px solid red; */
 }
 
 form {
@@ -653,6 +656,281 @@ footer > img {
   padding-bottom: 11px;
 }
 
-footer .icons img {
+footer .icons {
   filter: invert(90%) sepia(90%) hue-rotate(190deg) brightness(1.5);
+}
+
+@media (min-width: 769px) {
+  .desktop {
+    display: unset;
+  }
+
+  header {
+    padding: 0 9rem;
+  }
+
+  .desk-nav-list {
+    display: flex;
+    gap: 2rem;
+    font-style: normal;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .desk-nav-list a {
+    color: #fff;
+  }
+
+  .hamburger,
+  .menuicon {
+    display: none;
+  }
+
+  .desk-email-box {
+    margin-left: 2rem;
+  }
+
+  .intro {
+    flex-direction: row;
+    background-image: url(./images/Illustration-header.png);
+    align-items: center;
+  }
+
+  .headline {
+    order: 1;
+    width: 35rem;
+  }
+
+  .hello-me {
+    line-height: 113%;
+    color: #f55800;
+    font-size: 72px;
+    height: 160px;
+  }
+
+  .SD {
+    color: #fff;
+    font-size: 2rem;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 44px;
+    height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .info {
+    font-family: Inter, 'Poppins', Arial, Helvetica, sans-serif;
+    color: #f4f5f7;
+    font-size: 20px;
+    line-height: 160%;
+  }
+
+  .icons {
+    order: 0;
+    flex-direction: column;
+    margin: 0 3.5rem 0 2rem;
+    height: fit-content;
+  }
+
+  .Recent-works {
+    margin: 8.5rem 7rem;
+    padding: 0;
+  }
+
+  .recent-works-heading {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    gap: 1.5rem;
+    height: 3.25rem;
+    margin-bottom: 7rem;
+  }
+
+  .recent-works-title {
+    color: #091e42;
+    border: 0;
+    padding: 0;
+    height: inherit;
+  }
+
+  .line {
+    border: 1px solid #212121;
+    width: 70%;
+    height: 0;
+  }
+
+  .featured {
+    grid-template-columns: 60% 35%;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin: 0;
+  }
+
+  .gymfit {
+    grid-column: span 1;
+    grid-row: 1/6;
+    padding: 0;
+  }
+
+  .post-stories {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .feat-text {
+    grid-column: span 1;
+  }
+
+  .lang-list-4 {
+    grid-column: 2/3;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 2.2rem;
+    grid-column-gap: 1.5rem;
+  }
+
+  .project {
+    width: 100%;
+    margin: 1.5rem 0 0 0;
+    justify-content: flex-end;
+    height: 27rem;
+  }
+
+  .project2 {
+    background-image: url(./images/Proj3-bg.png);
+  }
+
+  .project3 {
+    background-image: url(./images/Proj4-bg.png);
+  }
+
+  .lang-3 {
+    margin-bottom: 1rem;
+  }
+
+  button.project-link-btn {
+    display: none;
+  }
+
+  .project:hover {
+    background-image: url(./images/Proj2-bg.png);
+  }
+
+  .project:hover > .professional {
+    display: none;
+  }
+
+  .project:hover > .proj-desc {
+    display: none;
+  }
+
+  .project:hover > .lang-3 {
+    display: none;
+  }
+
+  .project:hover > button.project-link-btn {
+    display: unset;
+  }
+
+  .about {
+    margin: 0;
+    justify-content: flex-start;
+    padding: 2rem 8rem;
+    background-image: url(./images/Frame-about-desk.png);
+    background-position-y: 8%;
+  }
+
+  .ab-info {
+    align-self: flex-start;
+    padding-bottom: 9rem;
+  }
+
+  .about-title {
+    margin: 0;
+    padding: 7.5rem 0 0 0;
+    width: 35rem;
+  }
+
+  .about-me {
+    padding-left: 0;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    width: 35rem;
+  }
+
+  .resume-link {
+    background: #f55800;
+    margin-left: 0;
+  }
+
+  .lists {
+    margin-top: 9rem;
+    flex-direction: row;
+
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+  }
+
+  .ext-links {
+    display: flex;
+    gap: 12.5rem;
+  }
+
+  .ext-links li {
+    text-align: start;
+  }
+
+  .language {
+    text-align: start;
+    text-indent: -35px;
+  }
+
+  .frameworks {
+    text-align: start;
+    text-indent: -25px;
+  }
+
+  .skills {
+    text-align: start;
+    text-indent: -30px;
+  }
+
+  .contact-page {
+    flex-direction: row;
+  }
+
+  .contact-comment {
+    margin-left: 5rem;
+    margin-top: 4rem;
+    text-align: start;
+    width: 29rem;
+    margin-right: 2rem;
+    font-size: 2.5rem;
+  }
+
+  form {
+    width: 60%;
+    margin-top: 5rem;
+  }
+
+  .contact-button {
+    justify-content: flex-start;
+  }
+
+  footer {
+    height: 4.5rem;
+    justify-content: center;
+  }
+
+  footer .icons {
+    flex-direction: row;
+  }
+
+  .footer-bar {
+    display: none;
+  }
 }
