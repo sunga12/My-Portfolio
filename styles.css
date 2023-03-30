@@ -742,7 +742,8 @@ footer .icons {
   .recent-works-heading {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: stretch;
+    gap: 1.5rem;
     height: 3.25rem;
     margin-bottom: 7rem;
   }
@@ -756,7 +757,7 @@ footer .icons {
 
   .line {
     border: 1px solid #212121;
-    width: 35rem;
+    width: 70%;
     height: 0;
   }
 
@@ -794,9 +795,9 @@ footer .icons {
 
   .project {
     width: 100%;
-    padding-bottom: 1rem;
     margin: 1.5rem 0 0 0;
     justify-content: flex-end;
+    height: 27rem;
   }
 
   .project2 {
@@ -807,8 +808,32 @@ footer .icons {
     background-image: url(./images/Proj4-bg.png);
   }
 
+  .lang-3 {
+    margin-bottom: 1rem;
+  }
+
   button.project-link-btn {
     display: none;
+  }
+
+  .project:hover {
+    background-image: url(./images/Proj2-bg.png);
+  }
+
+  .project:hover > .professional {
+    display: none;
+  }
+
+  .project:hover > .proj-desc {
+    display: none;
+  }
+
+  .project:hover > .lang-3 {
+    display: none;
+  }
+
+  .project:hover > button.project-link-btn {
+    display: unset;
   }
 
   .about {
