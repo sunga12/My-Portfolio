@@ -917,6 +917,15 @@ footer .icons {
     margin-top: 5rem;
   }
 
+  #name {
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  #name:hover {
+    transform: translate(20px);
+  }
+
   .contact-button {
     justify-content: flex-start;
   }
