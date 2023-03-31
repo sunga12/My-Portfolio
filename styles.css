@@ -31,11 +31,8 @@ header {
   background-color: #3c3a39;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 1rem;
-}
-
-.nav-items {
-  width: 100%;
 }
 
 .menuicon {
@@ -51,6 +48,21 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+}
+
+.logo {
+  animation-name: logo-rotate;
+  animation-duration: 2s;
+}
+
+@keyframes logo-rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .intro {
