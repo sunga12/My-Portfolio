@@ -746,7 +746,6 @@ footer .icons {
     height: fit-content;
   }
 
-
   .contact-icon:hover {
     transform: scale(1.4);
     animation-name: icon-rotate;
@@ -832,6 +831,7 @@ footer .icons {
   }
 
   .project:hover {
+    background-image: url(./images/Proj2-bg.png);
     transform: scale(1.05);
   }
 
@@ -849,10 +849,6 @@ footer .icons {
 
   button.project-link-btn {
     display: none;
-  }
-
-  .project:hover {
-    background-image: url(./images/Proj2-bg.png);
   }
 
   .project:hover > .professional {
