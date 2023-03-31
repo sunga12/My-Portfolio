@@ -746,22 +746,6 @@ footer .icons {
     height: fit-content;
   }
 
-  .contact-icon:hover {
-    transform: scale(1.4);
-    animation-name: icon-rotate;
-    animation-duration: 1s;
-  }
-
-  @keyframes icon-rotate {
-    from {
-      transform: rotate(0);
-    }
-
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
   .Recent-works {
     margin: 8.5rem 7rem;
     padding: 0;
@@ -827,11 +811,10 @@ footer .icons {
     justify-content: flex-end;
     height: 27rem;
     transition: transform;
-    transition-duration: 500ms;
+    transition-duration: 250ms;
   }
 
   .project:hover {
-    background-image: url(./images/Proj2-bg.png);
     transform: scale(1.05);
   }
 
@@ -849,6 +832,10 @@ footer .icons {
 
   button.project-link-btn {
     display: none;
+  }
+
+  .project:hover {
+    background-image: url(./images/Proj2-bg.png);
   }
 
   .project:hover > .professional {
