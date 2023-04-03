@@ -33,8 +33,6 @@
 
 ### HTML-Used for Text & CSS-Used for styling <a name="tech-stack"></a>
 
-
-
 <details>
   <summary>Markup Language</summary>
   <ul>
@@ -59,11 +57,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click [Coming Soon]() 
+[My Portfolio](https://sunga12.github.io/My-Portfolio/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
