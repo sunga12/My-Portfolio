@@ -33,8 +33,6 @@
 
 ### HTML-Used for Text & CSS-Used for styling <a name="tech-stack"></a>
 
-
-
 <details>
   <summary>Markup Language</summary>
   <ul>
@@ -55,14 +53,13 @@
 - **Tells you a bit about myself**
 - **User Friendly**
 - **Impressive UI**
+- **Built for all screen sizes (Mobile & Desktop)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click [Coming Soon]() 
+[My Portfolio](https://sunga12.github.io/My-Portfolio/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,13 +142,12 @@ Github Pages:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **Project Popup Windows**
-- [ ] **Animations and Transitions**
+- [ ] **Contact form Validation**
 - [ ] **Mobile Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
