@@ -55,6 +55,7 @@
 - **Tells you a bit about myself**
 - **User Friendly**
 - **Impressive UI**
+- **Built for all screen sizes (Mobile & Desktop)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,13 +146,12 @@ Github Pages:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **Project Popup Windows**
-- [ ] **Animations and Transitions**
+- [ ] **Contact form Validation**
 - [ ] **Mobile Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
