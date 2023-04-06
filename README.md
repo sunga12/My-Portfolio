@@ -27,7 +27,7 @@
 
 # 📖 My Portfolio <a name="about-project"></a>
 
-> My Portfolio showcases my projects, and tells you a little about myself. It is a portfolio built first for view on mobile devices upto 768px screen sizes. 
+> My Portfolio showcases my projects, and tells you a little about myself. It is a portfolio with good RWD. Here's a walkthrough to tell you a bit more: https://www.loom.com/share/6fde72b9350a41bb98acc9e0b52da367
 
 ## 🛠 Built With <a name="built-with"></a>
 
