@@ -27,13 +27,11 @@
 
 # 📖 My Portfolio <a name="about-project"></a>
 
-> My Portfolio showcases my projects, and tells you a little about myself. It is a portfolio built first for view on mobile devices upto 768px screen sizes. Heres a walkthrough to tell you more: https://www.loom.com/share/6fde72b9350a41bb98acc9e0b52da367
+> My Portfolio showcases my projects, and tells you a little about myself. It is a portfolio built first for view on mobile devices upto 768px screen sizes. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### HTML-Used for Text & CSS-Used for styling <a name="tech-stack"></a>
-
-
 
 <details>
   <summary>Markup Language</summary>
@@ -55,14 +53,13 @@
 - **Tells you a bit about myself**
 - **User Friendly**
 - **Impressive UI**
+- **Built for all screen sizes (Mobile & Desktop)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click [Coming Soon]() 
+[My Portfolio](https://sunga12.github.io/My-Portfolio/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,13 +142,12 @@ Github Pages:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **Project Popup Windows**
-- [ ] **Animations and Transitions**
+- [ ] **Contact form Validation**
 - [ ] **Mobile Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
