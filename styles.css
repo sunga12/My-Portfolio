@@ -36,27 +36,30 @@ ul a {
   z-index: 2;
   padding: 6rem 1.5rem 0 1.5rem;
   text-decoration: none;
-  /* margin-left: -1000px; */
+  margin-left: -1000px;
   display: flex;
   flex-direction: column;
 }
 
+form li + li {
+  margin-top: 1.5rem;
+}
+
 .mob-nav-list li {
-  border-bottom: 1px solid #6F6C6B;
+  border-bottom: 1px solid #6f6c6b;
   padding: 1rem;
   width: 85%;
 }
 
 .mob-nav-list a {
   text-decoration: none;
-  color: #FFF5E1;
+  color: #fff5e1;
   font-weight: 700;
   font-size: 2rem;
   font-style: normal;
   font-family: Inter, Arial, Helvetica, sans-serif;
   line-height: 2.75rem;
 }
-
 
 .close {
   width: 20px;
@@ -331,8 +334,6 @@ button:hover {
   background-image: url(./images/Project-BG.png);
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* overflow: hidden; */
   color: white;
 }
 
@@ -356,10 +357,6 @@ button:hover {
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 0.5rem 1rem;
-}
-
-form li + li {
-  margin-top: 1.5rem;
 }
 
 .buttons {
