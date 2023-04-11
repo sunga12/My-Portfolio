@@ -41,6 +41,21 @@ ul a {
   flex-direction: column;
 }
 
+.mob-nav-list li {
+  border-bottom: 1px solid #6F6C6B;
+  padding: 1rem;
+  width: 85%;
+}
+
+.mob-nav-list a {
+  text-decoration: none;
+  color: #FFF5E1;
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: normal;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  line-height: 2.75rem;
+}
 
 
 .close {
