@@ -292,9 +292,9 @@ button:hover {
 
 .see-project {
   font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  width: 128px;
+  width: 100%;
   height: 48px;
-  font-size: 17px;
+  font-size: 1rem;
   background-color: #ff6b00;
   border: 0;
   font-weight: 700;
@@ -369,11 +369,6 @@ button:hover {
   list-style-type: none;
 }
 
-.buttons li {
-  padding: 0 0.75rem;
-  background: rgba(255, 255, 255, 0.24);
-}
-
 .buttons a {
   display: block;
   height: 1.25rem;
@@ -385,6 +380,19 @@ button:hover {
   color: #fff;
   font-weight: 500;
   font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.proj-lang {
+  height: 1.25rem;
+  font-size: 1rem;
+  text-decoration: none;
+  line-height: 1.25rem;
+  padding: 0.625rem 0.75rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.24);
 }
 
 button.project-link-btn {
@@ -708,6 +716,128 @@ footer .icons {
   filter: invert(90%) sepia(90%) hue-rotate(190deg) brightness(1.5);
 }
 
+.project-popup {
+  width: 90%;
+  height: 87%;
+  background-color: #fff;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  z-index: 2;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.301);
+  backdrop-filter: blur(5px);
+}
+
+.popup-title {
+  width: 90%;
+  align-self: center;
+  font-size: 32px;
+  font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
+  margin-left: 16px;
+  margin-right: 16px;
+  line-height: 44px;
+  color: #172b4d;
+  font-weight: 700;
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.popup-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.popup-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style-type: none;
+  padding-top: 0.5rem;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.popup-lang {
+  border: 1px solid #dfe1e6;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 5px 10px;
+  line-height: 20px;
+}
+
+.popup-image {
+  align-self: center;
+  height: 40%;
+  width: 90%;
+}
+
+.popup-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: "Inter", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #344563;
+  width: 90%;
+  line-height: 130%;
+  align-self: center;
+}
+
+.popup-see-more {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.see-more {
+  flex-grow: 1;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.see-more:hover {
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+.see-more:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+.popup-links {
+  margin: 0 0 0 5px;
+}
+
 @media (min-width: 769px) {
   .desktop {
     display: unset;
@@ -855,6 +985,15 @@ footer .icons {
     grid-column: 2/3;
   }
 
+  .see-project {
+    font-size: 0.8rem;
+  }
+
+  .see-project:hover {
+    font-size: 0.7rem;
+
+  }
+
   .projects {
     grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 2.2rem;
@@ -883,7 +1022,7 @@ footer .icons {
     background-image: url(./images/Proj4-bg.png);
   }
 
-  .lang-3 {
+  .buttons {
     margin-bottom: 1rem;
   }
 
@@ -899,7 +1038,7 @@ footer .icons {
     display: none;
   }
 
-  .project:hover > .lang-3 {
+  .project:hover > .buttons {
     display: none;
   }
 
@@ -941,8 +1080,6 @@ footer .icons {
   .lists {
     margin-top: 9rem;
     flex-direction: row;
-
-    /* justify-content: flex-start; */
     align-items: flex-start;
   }
 
@@ -1022,4 +1159,58 @@ footer .icons {
   .footer-bar {
     display: none;
   }
+
+  .project-popup {
+    width: 80%;
+    height: 70%;
+    display: grid;
+    top: 50%;
+    left: 50%;
+    gap: 1rem;
+    transform: translate(-50%, -50%);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2;
+    padding: 1rem;
+  }
+
+  .popup-title {
+    font-family: "Crete-Round", "Arial Narrow", Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 12px;
+    margin-left: 0;
+    grid-column: span 2;
+  }
+
+  .popup-close {
+    top: 5%;
+    right: 5%;
+  }
+
+  .popup-buttons {
+    gap: 0.5rem;
+    padding-top: 1rem;
+  }
+
+  .popup-image {
+    align-self: start;
+    height: 50%;
+    width: 100%;
+  }
+
+  .popup-desc {
+    display: grid;
+    gap: 1rem;
+    font-size: 1.1rem;
+    line-height: 150%;
+    align-self: start;
+  }
+
+  .popup-see-more {
+    justify-content: flex-start;
+  }
+
+  .see-more {
+    align-self: end;
+  }
+
 }
