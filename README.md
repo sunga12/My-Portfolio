@@ -144,7 +144,6 @@ Github Pages:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
 - [ ] **Project Popup Windows**
 - [ ] **Contact form Validation**
 - [ ] **Mobile Menu**
