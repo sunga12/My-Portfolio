@@ -65,7 +65,7 @@ const project3 = new Project('Data Dashboard Healthcare',
   './images/Proj3-bg.png',
   [['HTML'], ['Bootstrap'], ['Ruby']], '#', '#', 'project project3');
 
-  const project4 = new Project('Website Portfolio',
+const project4 = new Project('Website Portfolio',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   './images/Project-BG.png',
   [['HTML'], ['Bootstrap'], ['Ruby']], '#', '#', 'project project1');
@@ -208,7 +208,7 @@ featSeeProject.addEventListener('click', () => {
     body.removeChild(projectPopup);
     body.removeChild(overlay);
   });
-})
+});
 
 const projectsSection = document.createElement('div');
 projectsSection.className = 'projects';
@@ -263,10 +263,11 @@ projects.forEach((project) => {
 
   const seeProject = document.createElement('button');
   seeProject.innerHTML = '<h2>See Project<h2>';
-  seeProject.className = 'project-link-btn';  
+  seeProject.className = 'project-link-btn';
   seeProject.innerHTML = '<h2>See Project<h2>';
   projectdiv.appendChild(seeProject);
-seeProject.addEventListener('click', () => {
+
+  seeProject.addEventListener('click', () => {
     const projectPopup = document.createElement('div');
     projectPopup.className = 'project-popup';
     body.appendChild(projectPopup);
@@ -339,6 +340,5 @@ seeProject.addEventListener('click', () => {
       body.removeChild(projectPopup);
       body.removeChild(overlay);
     });
-  })
-
-})
+  });
+});

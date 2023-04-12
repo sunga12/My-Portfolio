@@ -718,7 +718,7 @@ footer .icons {
 
 .project-popup {
   width: 90%;
-  height: 87%;
+  height: fit-content;
   background-color: #fff;
   position: fixed;
   top: 5%;
@@ -991,7 +991,6 @@ footer .icons {
 
   .see-project:hover {
     font-size: 0.7rem;
-
   }
 
   .projects {
@@ -1212,5 +1211,4 @@ footer .icons {
   .see-more {
     align-self: end;
   }
-
 }
