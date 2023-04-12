@@ -132,7 +132,7 @@ featLangList.appendChild(featRuby);
 const featSeeProject = document.createElement('button');
 featSeeProject.className = 'see-project';
 featSeeProject.innerHTML = '<h2>See Project<h2>';
-featSeeProject.style.width = '30%';
+// featSeeProject.style.width = '30%';
 featuredWork.appendChild(featSeeProject);
 
 featSeeProject.addEventListener('click', () => {

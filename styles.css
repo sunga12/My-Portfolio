@@ -292,7 +292,7 @@ button:hover {
 
 .see-project {
   font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  width: 100%;
+  width: fit-content;
   height: 48px;
   font-size: 1rem;
   background-color: #ff6b00;
@@ -718,7 +718,7 @@ footer .icons {
 
 .project-popup {
   width: 90%;
-  height: fit-content;
+  height: 85%;
   background-color: #fff;
   position: fixed;
   top: 5%;
