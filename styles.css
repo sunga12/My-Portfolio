@@ -841,7 +841,7 @@ footer .icons {
   margin: 0 0 0 1rem;
 }
 
-#error {
+.error {
   color: #ff6b00;
   font-family: Inter, Arial, Helvetica, sans-serif;
   margin: 1rem;
