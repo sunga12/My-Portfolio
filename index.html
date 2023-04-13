@@ -106,13 +106,14 @@
 <section id="contact" class="contact-page">
   <h2 class="contact-comment">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 
-  <form action="https://formspree.io/f/mqkoaqdk/" method="POST">
+  <form novalidate action="https://formspree.io/f/mqkoaqdk/" method="POST">
 
       <ul class="form-list">
         <li>
           <input type="text" name="user-name" id="name" maxlength="30" required placeholder="Full name" />
         </li>
         <li>
+          <!-- <label for="mail"></label> -->
           <input type="email" name="user-email" id="mail" required placeholder="Email address"/>
         </li>
         <li>
@@ -122,6 +123,7 @@
         <li class="contact-button">
           <button class="form-submit" type="submit">Get in touch</button>
         </li>
+        <span id="error" aria-live="polite"></span>
       </ul>
   </form>
 
