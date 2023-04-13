@@ -812,7 +812,7 @@ footer .icons {
 
 .see-more {
   flex-grow: 1;
-  font-size: 0.7rem;
+  font-size: 1rem;
   padding: 0.5rem;
   background: #ff6b00;
   color: #fff;
@@ -821,6 +821,9 @@ footer .icons {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   letter-spacing: 0.03em;
   font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .see-more:hover {
@@ -835,7 +838,7 @@ footer .icons {
 }
 
 .popup-links {
-  margin: 0 0 0 5px;
+  margin: 0 0 0 1rem;
 }
 
 @media (min-width: 769px) {

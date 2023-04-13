@@ -132,7 +132,6 @@ featLangList.appendChild(featRuby);
 const featSeeProject = document.createElement('button');
 featSeeProject.className = 'see-project';
 featSeeProject.innerHTML = '<h2>See Project<h2>';
-// featSeeProject.style.width = '30%';
 featuredWork.appendChild(featSeeProject);
 
 featSeeProject.addEventListener('click', () => {
@@ -327,13 +326,13 @@ projects.forEach((project) => {
     popupDesc.appendChild(popupSeeMore);
 
     const seeLive = document.createElement('button');
-    seeLive.innerHTML = '<h2>See Live <img class="popup-links" src="./images/See-Live.png" alt="Live link"><h2>';
+    seeLive.innerHTML = '<p>See Live<p> <img class="popup-links" src="./images/See-Live.png" alt="Live link">';
     seeLive.className = 'see-more';
     popupSeeMore.appendChild(seeLive);
 
     const seeSource = document.createElement('button');
     seeSource.className = 'see-more';
-    seeSource.innerHTML = '<h2>See Source <img class="popup-links" src="./images/github-white-icon.png" alt="github link"><h2>';
+    seeSource.innerHTML = '<p>See Source<p> <img class="popup-links" src="./images/github-white-icon.png" alt="github link">';
     popupSeeMore.appendChild(seeSource);
 
     popupClose.addEventListener('click', () => {
