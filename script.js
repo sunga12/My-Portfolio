@@ -341,3 +341,18 @@ projects.forEach((project) => {
     });
   });
 });
+
+const contactForm = document.querySelector('form');
+const email = document.getElementById('mail');
+const emailRegExp = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+
+contactForm.addEventListener('submit', (event) => {
+  if (emailRegExp.test(email.value)) {
+    contactForm.submit();
+  } else {
+    event.preventDefault();
+    const errorMSG = document.getElementById('error');
+    errorMSG.textContent = 'Please use lowercase letters only for the email address';
+    errorMSG.className = 'error';
+  }
+});
