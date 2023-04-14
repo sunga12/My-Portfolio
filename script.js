@@ -378,4 +378,10 @@ contactForm.addEventListener('input', () => {
 // parse the string
 // place it in the fields
 
+window.addEventListener('load', () => {
 
+  nameObj.value = JSON.parse(localStorage.getItem("name"));
+  emailObj.value = JSON.parse(localStorage.getItem("email"));
+  msgObj.value = JSON.parse(localStorage.getItem("message"));
+
+})
