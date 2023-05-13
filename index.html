@@ -4,36 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sunga's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
 <header>
-    <!-- <div class="logo">   -->
-      <div class="nav-items logo"><a href="" id="logo">Sunga</a>
+      <div class="nav-items logo"><a href="#">Sunga</a>
     </div>
     <nav>
         <div class="nav-items menuicon">
-          <!-- <div class="menuicon"> -->
         <img class="hamburger" src="./images/Icon - Menu.png" alt="Hamburger menu icon">
         </div>
+
+        <ul class="mob mob-nav-list">
+          <img src="./images/close.png" alt="close icon" class="close">
+          <li><a href="#works">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <ul class="desktop desk-nav-list">
+          <li><a href="#works">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>    <div class="desktop desk-email-box">
+            <img src="./images/Union.png" alt="Email" class="email-icon">
+          </div>
+        </li>
+        </ul>
     </nav>
+
+
 </header>
 
-<section class="intro">
+<section id="intro" class="intro">
     <div class="headline">
-        <h1 class="hello-me">Hey There. I'm Sunga</h1>
-        <h3 class="SD">I'm a Software Developer</h3>
-        <p class="info">I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-        <ul class="icons">
-            <li><a href="https://www.github.com/sunga12"><img src="/images/github.png" class="contact-icon"></a></li>
-            <li><a href="https://www.linkedin.com/in/sungabanja-thawethe-b3419b142"><img src="/images/Linkedin icon.png" class="contact-icon"></a></li>
-            <li><a href="#"><img src="/images/angel list.png" class="contact-icon"></a></li>
-            <li><a href="https://twitter.com/OfficialAseT"><img src="/images/twitter.png" class="contact-icon"></a></li>
-            <li><a href="#"><img src="/images/medium.png" class="contact-icon"></a></li>
-        </ul>
+      <h1 class="hello-me">Hey There, <br> I'm Sunga.</h1>
+      <h3 class="SD">I'm a Software Developer</h3>
+      <p class="info">I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
     </div>
+    <ul class="icons">
+      <li><a href="https://www.github.com/sunga12"><img src="./images/github.svg" class="contact-icon"></a></li>
+      <li><a href="https://www.linkedin.com/in/sungabanja-thawethe-b3419b142"><img src="./images/linkedin.svg" class="contact-icon"></a></li>
+      <li><a href="#"><img src="./images/angelist.svg" class="contact-icon"></a></li>
+      <li><a href="https://twitter.com/OfficialAseT"><img src="./images/twitter.svg" class="contact-icon"></a></li>
+      <li><a href="#"><img src="./images/medium.svg" class="contact-icon"></a></li>
+    </ul>
+</section>
+
+<section id="works" class="Recent-works">
+
+</section>
+
+<section id="about" class="about">
+    <div class="ab-info">
+    <h2 class="about-title">About me</h2>
+    <p class="about-me">Hello I'm a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+    <a class="cv-link" href="#"><button class="resume-link">Get My Resume</button></a>
+</div>
+    <section class="lists">
+
+      <ul class="ext-links">
+
+        <li class="al1"><h3 class="ab-li-title">Language</h3>
+            <ul class="language">
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Ruby</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+              </ul>
+        </li>
+        
+
+
+        <li class="al2"><h3 class="ab-li-title">Frameworks</h3>
+              <ul class="frameworks">
+              <li><a href="#">React.js</a></li>
+              <li><a href="#">Ruby on Rails</a></li>
+              <li><a href="#">RSPec</a></li>
+              <li><a href="#">CapyBara</a></li>
+            </ul>
+        </li>
+
+        <li class="al3"><h3 class="ab-li-title">Skills</h3>  
+              <ul class="skills">
+              <li><a href="#">Database Management</a></li>
+              <li><a href="#">Version Control</a></li>
+              <li><a href="#">CLI</a></li>
+              <li><a href="#">API Design</a></li>
+              <li><a href="#">Web Development</a></li>
+            </ul>
+        </li>
+
+      </ul>
+
     </section>
+
+  </section>
+
+<section id="contact" class="contact-page">
+  <h2 class="contact-comment">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+
+  <form action="https://formspree.io/f/mqkoaqdk/" method="POST">
+
+      <ul class="form-list">
+        <li>
+          <input type="text" name="user-name" id="name" maxlength="30" required placeholder="Full name" />
+        </li>
+        <li>
+          <input type="email" name="user-email" id="mail" required placeholder="Email address"/>
+        </li>
+        <li>
+          <textarea name="user-message" id="message" maxlength="500" required placeholder="Write me something..."></textarea>
+        </li>
+
+        <li class="contact-button">
+          <button class="form-submit" type="submit">Get in touch</button>
+        </li>
+        <span id="error" aria-live="polite"></span>
+      </ul>
+  </form>
+
+</section>
+
+<footer>
+
+  <ul class="icons">
+    <li><a href="https://www.github.com/sunga12"><img src="./images/github.svg" class="contact-icon"></a></li>
+    <li><a href="https://www.linkedin.com/in/sungabanja-thawethe-b3419b142"><img src="./images/linkedin.svg" class="contact-icon"></a></li>
+    <li><a href="#"><img src="./images/angelist.svg" class="contact-icon"></a></li>
+    <li><a href="https://twitter.com/OfficialAseT"><img src="./images/twitter.svg" class="contact-icon"></a></li>
+    <li><a href="#"><img src="./images/medium.svg" class="contact-icon"></a></li>
+  </ul>
+
+  <img class="footer-bar" src="./images/Horiz-bar.png" alt="">
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
