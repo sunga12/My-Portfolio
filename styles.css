@@ -18,6 +18,11 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 ul a {
   text-decoration: none;
 }
@@ -718,7 +723,7 @@ footer .icons {
 
 .project-popup {
   width: 90%;
-  height: 85%;
+  height: 100%;
   background-color: #fff;
   position: fixed;
   top: 5%;

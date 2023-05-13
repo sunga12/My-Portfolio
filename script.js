@@ -197,11 +197,18 @@ featSeeProject.addEventListener('click', () => {
   const seeLive = document.createElement('button');
   seeLive.innerHTML = '<h2>See Live <img class="popup-links" src="./images/See-Live.png" alt="Live link"><h2>';
   seeLive.className = 'see-more';
+  seeLive.addEventListener('click', () => {
+    window.location.href = featuredProject.liveLink;
+  });
   popupSeeMore.appendChild(seeLive);
 
   const seeSource = document.createElement('button');
+  seeSource.href = featuredProject.sourceLink;
   seeSource.className = 'see-more';
   seeSource.innerHTML = '<h2>See Source <img class="popup-links" src="./images/github-white-icon.png" alt="github link"><h2>';
+  seeSource.addEventListener('click', () => {
+    window.location.href = featuredProject.sourceLink;
+  });
   popupSeeMore.appendChild(seeSource);
 
   popupClose.addEventListener('click', () => {
