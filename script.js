@@ -46,9 +46,9 @@ class Project {
   }
 }
 
-const featuredProject = new Project('Multi Post Stories',
-  'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.', './images/featured-work.png',
-  [['CSS'], ['HTML'], ['Bootstrap'], ['Ruby']], '#', '#', 'featured');
+const featuredProject = new Project('Royal School Website',
+  'School Website Designed using the Cindy Shen Template on Behance. A leading educational institution dedicated to providing outstanding learning opportunities for our students. Located in Ndola, Zambia, Royal is proud to offer a supportive and inclusive community that values diversity, creativity, and environmental responsibility. Explore the website and learn more about how Royal Primary & Secondary School can help your child reach their full potential.', './images/School-logo.jpeg',
+  [['CSS'], ['HTML'], ['Javascript'], ['Bootstrap']], 'https://sunga12.github.io/Capstone-project-1/', 'https://github.com/sunga12/Capstone-project-1', 'featured');
 
 const project1 = new Project('Professional Art Printing Data',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
@@ -90,7 +90,7 @@ featuredWork.appendChild(gymfit);
 
 const gymfitImg = document.createElement('img');
 gymfitImg.src = featuredProject.featuredImage;
-gymfitImg.style.width = '100%';
+gymfitImg.style.width = '65%';
 gymfit.appendChild(gymfitImg);
 
 const mpsTitle = document.createElement('div');
@@ -196,11 +196,18 @@ featSeeProject.addEventListener('click', () => {
   const seeLive = document.createElement('button');
   seeLive.innerHTML = '<h2>See Live <img class="popup-links" src="./images/See-Live.png" alt="Live link"><h2>';
   seeLive.className = 'see-more';
+  seeLive.addEventListener('click', () => {
+    window.location.href = featuredProject.liveLink;
+  });
   popupSeeMore.appendChild(seeLive);
 
   const seeSource = document.createElement('button');
+  seeSource.href = featuredProject.sourceLink;
   seeSource.className = 'see-more';
   seeSource.innerHTML = '<h2>See Source <img class="popup-links" src="./images/github-white-icon.png" alt="github link"><h2>';
+  seeSource.addEventListener('click', () => {
+    window.location.href = featuredProject.sourceLink;
+  });
   popupSeeMore.appendChild(seeSource);
 
   popupClose.addEventListener('click', () => {
