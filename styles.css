@@ -207,6 +207,16 @@ header {
   grid-column: span 4;
   padding-top: 70px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer > img {
+  padding-bottom: 11px;
+}
+
+.gymfit > img {
+  width: 65%;
 }
 
 .post-stories {
@@ -713,10 +723,6 @@ footer {
   margin-top: 4rem;
 }
 
-footer > img {
-  padding-bottom: 11px;
-}
-
 footer .icons {
   filter: invert(90%) sepia(90%) hue-rotate(190deg) brightness(1.5);
 }
@@ -986,6 +992,12 @@ footer .icons {
     grid-column: span 1;
     grid-row: 1/6;
     padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .gymfit > img {
+    height: 90%;
   }
 
   .post-stories {
