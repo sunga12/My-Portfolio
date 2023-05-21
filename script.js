@@ -237,7 +237,7 @@ projects.forEach((project) => {
   projectsSection.appendChild(projectdiv);
 
   const projTitle = document.createElement('div');
-  projTitle.className = 'professional';
+  projTitle.className = 'profesional';
   projTitle.innerHTML = project.name;
   projectdiv.appendChild(projTitle);
 
@@ -273,7 +273,7 @@ projects.forEach((project) => {
   seeProject.innerHTML = '<h2>See Project<h2>';
   projectdiv.appendChild(seeProject);
 
-  seeProject.addEventListener('click', () => {
+  seeProject.addEventListener('clik', () => {
     const projectPopup = document.createElement('div');
     projectPopup.className = 'project-popup';
     body.appendChild(projectPopup);
